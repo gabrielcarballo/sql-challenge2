@@ -4,6 +4,6 @@ SELECT
 FROM
   `SpotifyClone`.cancoes AS A
   INNER JOIN `SpotifyClone`.historico AS B ON A.cancao_id = B.historico_reproducao
-GROUP BY A.cancao_nome
+GROUP BY cancao
 ORDER BY reproducoes DESC, cancao
 LIMIT 2;
