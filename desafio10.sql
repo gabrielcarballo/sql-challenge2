@@ -10,4 +10,4 @@ WHERE
     C.plano_id = 1
     OR C.plano_id = 4
 GROUP BY nome
-ORDER BY nome;
+ORDER BY nome

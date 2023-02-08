@@ -155,22 +155,22 @@ INSERT INTO
         ano_lancamento,
         album_id
     )
-VALUES ('BREAK MY SOUL', 279, 2022, 1), ("VIRGO'S GROOVE", 369, 2022, 1), ('ALIEN SUPERSTAR', 116, 2022, 1), (
-        "Don't Stop Me Now",
+VALUES ("BREAK MY SOUL", 279, 2022, 1), ("VIRGO’S GROOVE", 369, 2022, 1), ("ALIEN SUPERSTAR", 116, 2022, 1), (
+        "Don’t Stop Me Now",
         203,
         1978,
         2
-    ), ('Under Pressure', 152, 1982, 3), (
-        'Como Nossos Pais',
+    ), ("Under Pressure", 152, 1982, 3), (
+        "Como Nossos Pais",
         105,
         1998,
         4
     ), (
-        'O Medo de Amar é o Medo de Ser Livre',
+        "O Medo de Amar é o Medo de Ser Livre",
         207,
         2001,
         5
-    ), ('Samba em Paris', 267, 2003, 6), ("The Bard's Song", 244, 2007, 7), ('Feeling Good', 100, 2012, 8);
+    ), ("Samba em Paris", 267, 2003, 6), ("The Bard’s Song", 244, 2007, 7), ("Feeling Good", 100, 2012, 8);
 
 INSERT INTO
     SpotifyClone.historico (
